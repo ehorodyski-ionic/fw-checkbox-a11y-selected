@@ -12,9 +12,19 @@
       <ion-title size="large">Blank</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <h1>Vanilla Input</h1>
+  <label for="vanilla">Vanilla Checkbox</label>
+  <input type="checkbox" name="vanilla" />
+  <h1>Isolated ion-checkbox</h1>
+  <ion-label for="isolated">Isolated Checkbox</ion-label>
+  <ion-checkbox name="isolated"></ion-checkbox>
+  <h1>Listed ion-checkbox</h1>
+  <ion-list>
+    <ion-item>
+      <ion-label for="nested">
+        ion-item checkbox
+      </ion-label>
+      <ion-checkbox name="nested"></ion-checkbox>
+    </ion-item>
+  </ion-list>
 </ion-content>
