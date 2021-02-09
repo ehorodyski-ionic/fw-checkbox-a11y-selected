@@ -1,0 +1,7 @@
+{
+  "name": "fw-checkbox-a11y-selected",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
